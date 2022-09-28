@@ -1,0 +1,33 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+dependencies {
+
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    testImplementation 'junit:junit:4.13.2'
+
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+}
+
+
+test {
+    useJUnit()
+
+    maxHeapSize = '1G'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+
