@@ -1,7 +1,7 @@
-package org.example.pattern.observer.classes;
+package org.example.pattern.observer.push.classes;
 
-import org.example.pattern.observer.interfaces.Display;
-import org.example.pattern.observer.interfaces.Observer;
+import org.example.pattern.observer.push.interfaces.Display;
+import org.example.pattern.observer.push.interfaces.Observer;
 
 //측정치의 최솟값, 평균, 최댓값을 보여준다.
 public class StatisticsDisplay implements Display, Observer {
