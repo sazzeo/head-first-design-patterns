@@ -1,12 +1,10 @@
-package org.example.pattern.observer.classes;
+package org.example.pattern.observer.push.classes;
 
-import org.example.pattern.observer.interfaces.Display;
-import org.example.pattern.observer.interfaces.Observer;
+import org.example.pattern.observer.push.interfaces.Display;
+import org.example.pattern.observer.push.interfaces.Observer;
 
 //날씨 예보를 보여준다.
 public class ForecastDisplay implements Display , Observer {
-
-
 
     private WeatherData weatherData;
 

@@ -1,14 +1,14 @@
-package org.example.pattern.observer.classes;
+package org.example.pattern.observer.pull.classes;
 
-import org.example.pattern.observer.interfaces.Display;
-import org.example.pattern.observer.interfaces.Observer;
+import org.example.pattern.observer.pull.interfaces.Display;
+import org.example.pattern.observer.pull.interfaces.Observer;
 
 //현재 날씨 데이터 값을 보여준다.
 public class CurrentConditionsDisplay implements Observer, Display {
 
     private float temperature;
     private float humidity;
-    private WeatherData weatherData;
+    private WeatherData weatherData ;
 
     //생성자를 통해 옵저버 등록
     public CurrentConditionsDisplay(WeatherData weatherData) {
@@ -16,12 +16,10 @@ public class CurrentConditionsDisplay implements Observer, Display {
         weatherData.registerObserver(this);
     }
 
-
-    //값이 바뀔 때 마다 호출됨.
     @Override
-    public void update(float temperature, float humidity, float pressure) {
-        this.temperature= temperature;
-        this.humidity = humidity;
+    public void update() {
+        this.temperature= weatherData.getTemperature();
+        this.humidity = weatherData.getHumidity();
         display();
     }
 

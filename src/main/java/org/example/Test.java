@@ -1,9 +1,17 @@
 package org.example;
 
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.Observer;
+
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println("번역기 와이라노");
+
+        PropertyChangeEvent propertyChangeEvent;
+        PropertyChangeListener propertyChangeListener;
+
+        Observer observer;
     }
 
 }

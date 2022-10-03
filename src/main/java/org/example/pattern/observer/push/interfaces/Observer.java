@@ -1,4 +1,4 @@
-package org.example.pattern.observer.interfaces;
+package org.example.pattern.observer.push.interfaces;
 
 public interface Observer {
 

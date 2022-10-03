@@ -1,7 +1,7 @@
-package org.example.pattern.observer.classes;
+package org.example.pattern.observer.push.classes;
 
-import org.example.pattern.observer.interfaces.Observer;
-import org.example.pattern.observer.interfaces.Subject;
+import org.example.pattern.observer.push.interfaces.Observer;
+import org.example.pattern.observer.push.interfaces.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

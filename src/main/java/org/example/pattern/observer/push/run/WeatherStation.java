@@ -1,9 +1,9 @@
-package org.example.pattern.observer.run;
+package org.example.pattern.observer.push.run;
 
-import org.example.pattern.observer.classes.CurrentConditionsDisplay;
-import org.example.pattern.observer.classes.ForecastDisplay;
-import org.example.pattern.observer.classes.StatisticsDisplay;
-import org.example.pattern.observer.classes.WeatherData;
+import org.example.pattern.observer.push.classes.CurrentConditionsDisplay;
+import org.example.pattern.observer.push.classes.ForecastDisplay;
+import org.example.pattern.observer.push.classes.StatisticsDisplay;
+import org.example.pattern.observer.push.classes.WeatherData;
 
 public class WeatherStation {
 
