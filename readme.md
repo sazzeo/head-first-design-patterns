@@ -10,6 +10,7 @@
 ### 객체지향 5원칙
 1. OCP (Open Closed Principle) : 개방 폐쇄 원칙   
 - 객체는 확장에는 열려있어야 하고 변경에는 닫혀있어야 한다.
+- 바뀔 가능성이 높은 부분을 중심적으로 적용해야 한다.
 2. SRP (Single Responsibility Principle) : 단일 책임 원칙
 - 객체는 오직 하나의 책임을 가져야 한다.
 3. LSP (Liskov Substitution Principle) : 리스코프 치환 원칙
