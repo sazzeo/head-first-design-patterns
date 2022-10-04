@@ -1,9 +1,11 @@
 package org.example.pattern.decorator.interfaces;
 
 
-//첨가물 추상 클래스
+//첨가물 추상 데코레이터
 public abstract class CondimentDecorator extends Beverage {
-    Beverage beverage;
+
+    protected Beverage beverage;
 
     public abstract String getDescription();
+
 }
