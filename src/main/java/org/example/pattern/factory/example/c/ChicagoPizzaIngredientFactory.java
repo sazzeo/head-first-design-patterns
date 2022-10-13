@@ -1,8 +1,6 @@
 package org.example.pattern.factory.example.c;
 
-public class ChicagoPizzaIngredientFactory 
-	implements PizzaIngredientFactory 
-{
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
 	public Dough createDough() {
 		return new ThickCrustDough();
