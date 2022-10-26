@@ -11,15 +11,17 @@ public class Run {
         ArrayMenu arrayMenu = new ArrayMenu();
         ListMenu listMenu = new ListMenu();
 
-
         Iterator arrayIter = arrayMenu.createIterator();
         Iterator listIter = listMenu.createIterator();
 
-        arrayIter.hasNext();
-        arrayIter.next();
 
-        listIter.hasNext();
-        listIter.next();
+        while(arrayIter.hasNext()) {
+            System.out.println(arrayIter.next());
+        }
+
+        while(listIter.hasNext()) {
+            System.out.println(listIter.next());
+        }
 
 
     }
