@@ -1,4 +1,4 @@
-package org.example.pattern.proxy.base;
+package org.example.pattern.proxy.remoteproxy.base;
 
 
 //상태를 나타내는 인터페이스

@@ -1,4 +1,4 @@
-package org.example.pattern.proxy.interfaces;
+package org.example.pattern.proxy.remoteproxy.interfaces;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

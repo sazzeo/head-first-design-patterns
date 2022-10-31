@@ -1,4 +1,4 @@
-package org.example.pattern.proxy.base;
+package org.example.pattern.proxy.remoteproxy.base;
 
 public class GumballMachine {
 

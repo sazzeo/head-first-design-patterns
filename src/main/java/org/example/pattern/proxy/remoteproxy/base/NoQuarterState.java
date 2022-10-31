@@ -1,4 +1,4 @@
-package org.example.pattern.proxy.base;
+package org.example.pattern.proxy.remoteproxy.base;
 
 //동전 넣기 전 상태
 public class NoQuarterState implements State {
