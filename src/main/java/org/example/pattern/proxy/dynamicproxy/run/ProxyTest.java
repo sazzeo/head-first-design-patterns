@@ -12,7 +12,7 @@ public class ProxyTest {
 
     public static void main(String[] args) {
         
-        Person jeeyoung = new PersonImpl("지영쿤");
+        Person jeeyoung = new PersonImpl("지영");
         PersonProxy personProxy = new PersonProxy();
         Person ownerProxy = personProxy.getOwnerProxy(jeeyoung);
 
